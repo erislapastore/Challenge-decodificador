@@ -1,0 +1,199 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #f2f2f2;
+    background-position: center top;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+header h1{
+    position: fixed;
+    left: 20%;
+    top: 0;
+    color: #0A3871;
+}
+
+.main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input{
+    margin-top: 90px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    position: absolute;
+    width: 252px;
+    height: 70px;
+    left: 100px;
+}
+
+.informacao {
+    font-size: 15px;
+    font-style: bold;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: flex-start;
+    gap: 10%;
+    position: fixed;
+    width: 380px;
+    height: 67px;
+    left: 100px;
+    top: 650px; 
+}
+
+.codificar {
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.codificar:hover{
+    background: rgb(43, 69, 135);
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.decodificar {
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.decodificar:hover{
+    background: rgb(43, 69, 135);
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.container{
+    position: static;
+    width: 320px;
+    height: 49px;
+    left: 0px;
+    top: 74px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 340;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.caixa2{
+    position: absolute;
+    width: 336px;
+    height: 700px;
+    left: 1032px;
+    top: 10px;
+    background: white;
+    border-radius: 32px;
+}
+
+.message {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-color: transparent;   
+}
+
+.boneco{
+    width: 325px;
+}
+
+.botoes2{
+    color: #FFFFFF;
+    border-radius: 24px;
+    position: absolute;
+    margin-top: 10px;
+    align-items: flex-start;
+    gap: 10%;
+    right: 40%;
+    width: 380px;
+    height: 67px;
+    top: 695px;
+    cursor: pointer;
+   
+}
+
+.copiar {
+    position: absolute;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.botoes2:hover{
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease all;   
+}
+
+.copiar:hover {
+    position: absolute;
+    background: rgb(43, 69, 135);
+    cursor: pointer;
+    transition: .3s ease all;
+}
+  
+.footer {
+    position: fixed;
+    font-size: 35px;
+    left: 0;
+    bottom: 0;
+    top: 85%;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(21, 37, 86);
+    color: white;
+    text-align: center;
+    
+}
+
+.footer p{
+    font-size: 18px;
+}
+.footer a{
+    font-size: 18px;
+    color: white;
+}
+.fa-linkedin {
+    text-align: left;
+    color: white;
+}
+
+.fa-github{
+    text-align: left;
+    color: white;
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+}
+
+    main{
+        width: 100vw;
+    }

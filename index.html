@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Desafio decodificador ONE-ALURA - turma4.</title>
+</head>
+<body>
+    <header>
+        <a href="https://www.alura.com.br/"><img src="img/logo.png" alt="Logo da Alura" class="logo"></a>
+        <h1>Codificador e decodificador</h1>
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="input" cols="40" rows="6" placeholder="Digite seu texto..." ></textarea>
+            <div class="info">
+                <img src="img/exclamacao.png">
+                <p class="informacao">Não devem ser utilizadas letras maiúsculas, nem com acentos e caracteres especiais.</p>  
+            </div>
+            <div class="botoes">
+                <button  class="codificar" onclick="btnCodificar()">Codificar</button>
+                <button  class="decodificar" onclick="btnDecodificar()">Decodificar</button> 
+            </div>
+        </section>       
+        <section class="container">    
+            <div class="caixa2">
+                <textarea class="message" cols="15" rows="6"></textarea>
+                <img class= "boneco" src="img/boneco.jpg">                       
+            <div class="botoes2">
+                <button id="copy"class="copiar">Copiar</button>
+            </div>
+        </section>    
+    </main>
+        <footer class="footer">
+            <p>© Erisla Pastore - "Challenge One Decodificador - turma 4"
+            <a href="https://www.oracle.com/br/education/oracle-next-education/">ONE</a> - <a href="https://www.alura.com/">ALURA.</a></p>
+            <a href="https://github.com/erislapastore" class="fa fa-github"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/erisla" class="fa fa-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </footer> 
+
+        <script src="js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
